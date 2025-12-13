@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar con tu estilo navideño */
+.navbar {
+    background: linear-gradient(135deg, #d4145a 0%, #fbb03b 100%);
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-title {
+    margin-bottom: 20px;
+}
+
+.nav-title span {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-menu li a:hover {
+    background-color: white;
+    color: #d4145a;
+    transform: scale(1.1);
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #d4145a 0%, #fbb03b 100%);
+    padding: 50px 30px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.95;
+}
+
+.content {
+    padding: 40px 35px;
+}
+
+.icon-section {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.content h2 {
+    color: #d4145a;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 30px 0;
+    color: white;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.divider {
+    border: none;
+    border-top: 2px dashed #ddd;
+    margin: 30px 0;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 25px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+.emoji-line {
+    text-align: center;
+    font-size: 30px;
+    margin: 25px 0;
+    letter-spacing: 15px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+    .nav-menu {
+        gap: 15px;
+    }
+    
+    .nav-menu li a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    .nav-title span {
+        font-size: 28px;
+    }
+    
+    .header h1 {
+        font-size: 32px;
+    }
+    
+    .content {
+        padding: 25px 20px;
+    }
+    
+    .emoji-line {
+        letter-spacing: 10px;
+    }
+}
